@@ -1,0 +1,100 @@
+{
+  "add": [
+    "47746b3abd70dabe927407eec1fef7e7",
+    "f4bc7b2ac5336b8ad0286a3f4192f2d1",
+    "7e044fb8bc4bca7f5d28d4cbe05145f9",
+    "e012f449af35f68861cb7b4cc515427b"
+  ],
+  "delete": [
+    "6adbba7d1bab26e0203b790ae0adb380"
+  ],
+  "changes": [
+    "47746b3abd70dabe927407eec1fef7e7",
+    "f4bc7b2ac5336b8ad0286a3f4192f2d1",
+    "7e044fb8bc4bca7f5d28d4cbe05145f9",
+    "e012f449af35f68861cb7b4cc515427b",
+    "2199ace55d43ccccac9c1d7a9f4a5b7b"
+  ],
+  "snapshots": {
+    "2199ace55d43ccccac9c1d7a9f4a5b7b": {
+      "id": "2199ace55d43ccccac9c1d7a9f4a5b7b",
+      "parent_id": "758e22b5db2113a43f72f838dd531694",
+      "name": "y",
+      "components": [
+        {
+          "id": "e08de8ee1b7bd0e45201edaf78ba4697",
+          "parent_id": "2199ace55d43ccccac9c1d7a9f4a5b7b",
+          "name": "Zookeeper",
+          "properties": [
+            {
+              "id": "24174f67c71aa134f7d2cc6543398fc0",
+              "parent_id": "e08de8ee1b7bd0e45201edaf78ba4697",
+              "key": "image",
+              "value": "confluentinc/cp-zookeeper:latest",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            }
+          ],
+          "changed": false,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "4f39b6c9b83bfa638c6ca8d7a4d8a047",
+          "parent_id": "2199ace55d43ccccac9c1d7a9f4a5b7b",
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "ece32d11de04ea9b6e1403bb711bc958",
+              "parent_id": "4f39b6c9b83bfa638c6ca8d7a4d8a047",
+              "label": "2181",
+              "changed": false,
+              "py_class": "Port"
+            }
+          ],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "class": "Node"
+    },
+    "47746b3abd70dabe927407eec1fef7e7": {
+      "id": "47746b3abd70dabe927407eec1fef7e7",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "new",
+      "properties": [],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "f4bc7b2ac5336b8ad0286a3f4192f2d1": {
+      "id": "f4bc7b2ac5336b8ad0286a3f4192f2d1",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "new",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "7e044fb8bc4bca7f5d28d4cbe05145f9": {
+      "id": "7e044fb8bc4bca7f5d28d4cbe05145f9",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "label": "00",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "e012f449af35f68861cb7b4cc515427b": {
+      "id": "e012f449af35f68861cb7b4cc515427b",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "new",
+      "artifacts": [],
+      "ports": [],
+      "full_representation": true,
+      "changed": true,
+      "py_class": "Package"
+    }
+  }
+}
