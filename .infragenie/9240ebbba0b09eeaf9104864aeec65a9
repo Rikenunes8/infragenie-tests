@@ -17,14 +17,14 @@
       "ports": [],
       "full_representation": true,
       "changed": true,
-      "py_class": "api.util.plantuml.Package"
+      "py_class": "Package"
     },
     "d7622c3db3cc743e99f244e234d366e3": {
       "id": "d7622c3db3cc743e99f244e234d366e3",
       "parent_id": "824c25065ecc00b04cf456b18e172bba",
       "label": "1111",
       "changed": true,
-      "py_class": "api.util.plantuml.Port"
+      "py_class": "Port"
     }
   }
 }
