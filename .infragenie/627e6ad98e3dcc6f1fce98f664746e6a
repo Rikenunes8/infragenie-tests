@@ -1,0 +1,18 @@
+{
+  "add": [
+    "0bdb95cf656f38b4e3f78377b6255fc8"
+  ],
+  "delete": [],
+  "changes": [
+    "0bdb95cf656f38b4e3f78377b6255fc8"
+  ],
+  "snapshots": {
+    "0bdb95cf656f38b4e3f78377b6255fc8": {
+      "id": "0bdb95cf656f38b4e3f78377b6255fc8",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "New",
+      "properties": [],
+      "changed": true
+    }
+  }
+}
