@@ -1,0 +1,38 @@
+{
+  "add": [
+    "0237b6e425b7537e89c75ae8dfcb13bf",
+    "d60134d06257aab30a47ca63494f71fd"
+  ],
+  "delete": [],
+  "changes": [
+    "d60134d06257aab30a47ca63494f71fd"
+  ],
+  "snapshots": {
+    "0237b6e425b7537e89c75ae8dfcb13bf": {
+      "id": "0237b6e425b7537e89c75ae8dfcb13bf",
+      "parent_id": "ff2ece4ac8681e826262452074d78ce3",
+      "name": "Text",
+      "components": [
+        {
+          "id": "d60134d06257aab30a47ca63494f71fd",
+          "parent_id": "0237b6e425b7537e89c75ae8dfcb13bf",
+          "name": "This is a test component to see if this still works",
+          "properties": [],
+          "changed": true
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "class": "Node"
+    },
+    "d60134d06257aab30a47ca63494f71fd": {
+      "id": "d60134d06257aab30a47ca63494f71fd",
+      "parent_id": "0237b6e425b7537e89c75ae8dfcb13bf",
+      "name": "This is a test component to see if this still works",
+      "properties": [],
+      "changed": true
+    }
+  }
+}
