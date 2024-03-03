@@ -1,0 +1,55 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "541661622185851c248b41bf0cea7ad0"
+  ],
+  "snapshots": {
+    "541661622185851c248b41bf0cea7ad0": {
+      "id": "541661622185851c248b41bf0cea7ad0",
+      "parent_id": "c72a1d8ffd03e3728483678c446f3601",
+      "name": "Kawasaki",
+      "components": [
+        {
+          "id": "349a83bb472f89aafc32c286b36aadbc",
+          "parent_id": "541661622185851c248b41bf0cea7ad0",
+          "name": "Kafka",
+          "properties": [
+            {
+              "id": "d5f1d2e3acce9da784163d3797fd3e44",
+              "parent_id": "349a83bb472f89aafc32c286b36aadbc",
+              "key": "image",
+              "value": "confluentinc/cp-kafka:latest",
+              "changes": false
+            }
+          ],
+          "changed": false
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "8b8fc7ee7acd091b8fb672b128207ecb",
+          "parent_id": "541661622185851c248b41bf0cea7ad0",
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "6adbba7d1bab26e0203b790ae0adb380",
+              "parent_id": "8b8fc7ee7acd091b8fb672b128207ecb",
+              "label": "29092",
+              "changed": false,
+              "py_class": "api.util.plantuml.Port"
+            }
+          ],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "api.util.plantuml.Package"
+        }
+      ],
+      "changed": true,
+      "class": "Node"
+    }
+  }
+}
