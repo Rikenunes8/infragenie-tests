@@ -1,0 +1,39 @@
+{
+  "add": [
+    "7208ed9e165f6e9cddde59e88d80a8c1",
+    "869476de1e59bf8ab9f44c713c3781bf"
+  ],
+  "delete": [],
+  "changes": [
+    "7208ed9e165f6e9cddde59e88d80a8c1",
+    "869476de1e59bf8ab9f44c713c3781bf"
+  ],
+  "snapshots": {
+    "7208ed9e165f6e9cddde59e88d80a8c1": {
+      "id": "7208ed9e165f6e9cddde59e88d80a8c1",
+      "parent_id": "3c72c3406479e00e0439b5f2472dbf5e",
+      "name": "TEST",
+      "components": [
+        {
+          "id": "869476de1e59bf8ab9f44c713c3781bf",
+          "parent_id": "7208ed9e165f6e9cddde59e88d80a8c1",
+          "name": "This is a test component to see if this still works",
+          "properties": [],
+          "changed": true
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "class": "Node"
+    },
+    "869476de1e59bf8ab9f44c713c3781bf": {
+      "id": "869476de1e59bf8ab9f44c713c3781bf",
+      "parent_id": "7208ed9e165f6e9cddde59e88d80a8c1",
+      "name": "This is a test component to see if this still works",
+      "properties": [],
+      "changed": true
+    }
+  }
+}
