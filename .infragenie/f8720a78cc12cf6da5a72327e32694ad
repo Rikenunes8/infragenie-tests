@@ -1,0 +1,22 @@
+{
+  "add": [
+    "ccb344031fe601757a58ee73e23e7d56"
+  ],
+  "delete": [],
+  "changes": [
+    "ccb344031fe601757a58ee73e23e7d56"
+  ],
+  "snapshots": {
+    "ccb344031fe601757a58ee73e23e7d56": {
+      "id": "ccb344031fe601757a58ee73e23e7d56",
+      "parent_id": "c996ae02882309d0c5d82136df7bef83",
+      "name": "TENTATIVA",
+      "components": [],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "class": "Node"
+    }
+  }
+}
