@@ -1,0 +1,21 @@
+{
+  "add": [
+    "f19af2659fb62b7176035d2ffb3dbad4"
+  ],
+  "delete": [],
+  "changes": [
+    "f19af2659fb62b7176035d2ffb3dbad4"
+  ],
+  "snapshots": {
+    "f19af2659fb62b7176035d2ffb3dbad4": {
+      "id": "f19af2659fb62b7176035d2ffb3dbad4",
+      "parent_id": "86432e6148d6ad896b95f7e33fa3d0e1",
+      "name": "kola",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    }
+  }
+}
