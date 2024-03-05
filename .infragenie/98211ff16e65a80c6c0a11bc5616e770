@@ -1,0 +1,209 @@
+{
+  "add": [
+    "4442ac2bd29f17aecfcb3937d5039f63",
+    "e265b8ef4fa7590f6533f011ed798e09",
+    "10bc3a939f9e7ea0bae7ea1816364bfb",
+    "3e2295538e790bcfd19a83f8fc9ebea4",
+    "394329e25d6ce9083014d60584972b07",
+    "8f0044f6cf0eb88350514cf03574e731"
+  ],
+  "delete": [
+    "d2a57dc1d883fd21fb9951699df71cc7",
+    "1e60e3d4574bf0a33393c4f1cc4b9713",
+    "944ff56dc72b690cda4df4830d452e85",
+    "e0a4550cf5319f4447136bd2ad0908e0",
+    "ad9945ed7936e2e9edb8e894ceae4fe8"
+  ],
+  "changes": [
+    "824c25065ecc00b04cf456b18e172bba",
+    "4442ac2bd29f17aecfcb3937d5039f63",
+    "e265b8ef4fa7590f6533f011ed798e09",
+    "10bc3a939f9e7ea0bae7ea1816364bfb",
+    "3e2295538e790bcfd19a83f8fc9ebea4",
+    "394329e25d6ce9083014d60584972b07",
+    "8f0044f6cf0eb88350514cf03574e731",
+    "e08de8ee1b7bd0e45201edaf78ba4697"
+  ],
+  "snapshots": {
+    "824c25065ecc00b04cf456b18e172bba": {
+      "id": "824c25065ecc00b04cf456b18e172bba",
+      "parent_id": "d2990019eaeb963ce6a4b9fc74e723fa",
+      "name": "xxxxxx",
+      "components": [
+        {
+          "id": "10bc3a939f9e7ea0bae7ea1816364bfb",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "New comp?",
+          "properties": [],
+          "changed": true,
+          "py_class": "Component"
+        },
+        {
+          "id": "6cec62b19a20c63d1b6535f2688de974",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "Plantuml-server",
+          "properties": [
+            {
+              "id": "f1bfdcb3d3d7d1463eebd9c9ce0a4287",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "key": "image",
+              "value": "plantuml/plantuml-server:jetty",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            },
+            {
+              "id": "f8d62a37ac81e353f8c7a6010f562669",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "key": "environment",
+              "value": "BASE_URL=plantuml",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            },
+            {
+              "id": "4442ac2bd29f17aecfcb3937d5039f63",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "key": "text",
+              "value": "new_text",
+              "changes": false,
+              "py_class": "ComponentProperty",
+              "changed": true
+            }
+          ],
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [
+        {
+          "id": "e265b8ef4fa7590f6533f011ed798e09",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "label": "00",
+          "changed": true,
+          "py_class": "Port"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "3e2295538e790bcfd19a83f8fc9ebea4",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "new art",
+          "changed": true,
+          "py_class": "Artifact"
+        }
+      ],
+      "packages": [
+        {
+          "id": "394329e25d6ce9083014d60584972b07",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "a new pack",
+          "artifacts": [
+            {
+              "id": "8f0044f6cf0eb88350514cf03574e731",
+              "parent_id": "394329e25d6ce9083014d60584972b07",
+              "name": "with art",
+              "changed": true,
+              "py_class": "Artifact"
+            }
+          ],
+          "ports": [],
+          "full_representation": true,
+          "changed": true,
+          "py_class": "Package"
+        },
+        {
+          "id": "87c64235f342ac754477dd984311c622",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "18eb8329fc6fdb6f429a02d04f286599",
+              "parent_id": "87c64235f342ac754477dd984311c622",
+              "label": "8080",
+              "changed": false,
+              "py_class": "Port"
+            }
+          ],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "class": "Node"
+    },
+    "e08de8ee1b7bd0e45201edaf78ba4697": {
+      "id": "e08de8ee1b7bd0e45201edaf78ba4697",
+      "parent_id": "2199ace55d43ccccac9c1d7a9f4a5b7b",
+      "name": "y",
+      "properties": [
+        {
+          "id": "24174f67c71aa134f7d2cc6543398fc0",
+          "parent_id": "e08de8ee1b7bd0e45201edaf78ba4697",
+          "key": "image",
+          "value": "confluentinc/cp-zookeeper:latest",
+          "changes": false,
+          "py_class": "ComponentProperty"
+        }
+      ],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "4442ac2bd29f17aecfcb3937d5039f63": {
+      "id": "4442ac2bd29f17aecfcb3937d5039f63",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "key": "text",
+      "value": "new_text",
+      "changes": false,
+      "py_class": "ComponentProperty",
+      "changed": true
+    },
+    "e265b8ef4fa7590f6533f011ed798e09": {
+      "id": "e265b8ef4fa7590f6533f011ed798e09",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "label": "00",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "10bc3a939f9e7ea0bae7ea1816364bfb": {
+      "id": "10bc3a939f9e7ea0bae7ea1816364bfb",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "New comp?",
+      "properties": [],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "3e2295538e790bcfd19a83f8fc9ebea4": {
+      "id": "3e2295538e790bcfd19a83f8fc9ebea4",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "new art",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "394329e25d6ce9083014d60584972b07": {
+      "id": "394329e25d6ce9083014d60584972b07",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "a new pack",
+      "artifacts": [
+        {
+          "id": "8f0044f6cf0eb88350514cf03574e731",
+          "parent_id": "394329e25d6ce9083014d60584972b07",
+          "name": "with art",
+          "changed": true,
+          "py_class": "Artifact"
+        }
+      ],
+      "ports": [],
+      "full_representation": true,
+      "changed": true,
+      "py_class": "Package"
+    },
+    "8f0044f6cf0eb88350514cf03574e731": {
+      "id": "8f0044f6cf0eb88350514cf03574e731",
+      "parent_id": "394329e25d6ce9083014d60584972b07",
+      "name": "with art",
+      "changed": true,
+      "py_class": "Artifact"
+    }
+  }
+}
