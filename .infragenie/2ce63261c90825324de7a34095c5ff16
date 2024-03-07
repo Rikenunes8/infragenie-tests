@@ -1,0 +1,19 @@
+{
+  "add": [
+    "3dc745619360891ea520479d84f6747f"
+  ],
+  "delete": [],
+  "changes": [
+    "3dc745619360891ea520479d84f6747f"
+  ],
+  "snapshots": {
+    "3dc745619360891ea520479d84f6747f": {
+      "id": "3dc745619360891ea520479d84f6747f",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "sdsd",
+      "properties": [],
+      "changed": true,
+      "py_class": "Component"
+    }
+  }
+}
