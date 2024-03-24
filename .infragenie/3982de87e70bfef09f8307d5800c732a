@@ -1,0 +1,195 @@
+{
+  "add": [
+    "ae04d3573453c6dd8a9d7e1b7324e687",
+    "6c5eba8a2d5f54924506466e174ff714",
+    "a92a7cf78fc8cd7f2cf8872f4d2877a0",
+    "b19234b6bb7b7f8ecd6e57e964ae2f47",
+    "dd5decd5064b8fadedafcbe5775ff65a",
+    "9d418158a514a8ed64198dbb48d2819c"
+  ],
+  "delete": [
+    "248f3046e021501ed8f11217d5700353"
+  ],
+  "changes": [
+    "824c25065ecc00b04cf456b18e172bba",
+    "ae04d3573453c6dd8a9d7e1b7324e687",
+    "18eb8329fc6fdb6f429a02d04f286599",
+    "dd5decd5064b8fadedafcbe5775ff65a",
+    "9d418158a514a8ed64198dbb48d2819c",
+    "8a81c9bb0ec23d07684c1472053c60fe"
+  ],
+  "snapshots": {
+    "824c25065ecc00b04cf456b18e172bba": {
+      "id": "824c25065ecc00b04cf456b18e172bba",
+      "parent_id": "94af0645235e349319196e7d580254b7",
+      "extra_properties": {},
+      "name": "z",
+      "components": [
+        {
+          "id": "a92a7cf78fc8cd7f2cf8872f4d2877a0",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Text",
+          "properties": [],
+          "changed": true,
+          "py_class": "Component"
+        },
+        {
+          "id": "6cec62b19a20c63d1b6535f2688de974",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Plantuml-server",
+          "properties": [
+            {
+              "id": "248f3046e021501ed8f11217d5700353",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "image",
+              "value": "plantuml/plantuml-server:jetty",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            },
+            {
+              "id": "3c0e26fe9f27fa249591f868335c355f",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "environment",
+              "value": "BASE_URL=plantuml",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            },
+            {
+              "id": "ae04d3573453c6dd8a9d7e1b7324e687",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "new",
+              "value": "text",
+              "changes": false,
+              "py_class": "ComponentProperty",
+              "changed": true
+            }
+          ],
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [
+        {
+          "id": "6c5eba8a2d5f54924506466e174ff714",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "9999",
+          "changed": true,
+          "py_class": "Port"
+        }
+      ],
+      "artifacts": [
+        {
+          "id": "b19234b6bb7b7f8ecd6e57e964ae2f47",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "text",
+          "changed": true,
+          "py_class": "Artifact"
+        }
+      ],
+      "packages": [
+        {
+          "id": "87c64235f342ac754477dd984311c622",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "18eb8329fc6fdb6f429a02d04f286599",
+              "parent_id": "87c64235f342ac754477dd984311c622",
+              "extra_properties": {},
+              "name": "0001",
+              "changed": true,
+              "py_class": "Port"
+            }
+          ],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "class": "Node"
+    },
+    "18eb8329fc6fdb6f429a02d04f286599": {
+      "id": "18eb8329fc6fdb6f429a02d04f286599",
+      "parent_id": "87c64235f342ac754477dd984311c622",
+      "extra_properties": {},
+      "name": "0001",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "8a81c9bb0ec23d07684c1472053c60fe": {
+      "id": "8a81c9bb0ec23d07684c1472053c60fe",
+      "parent_id": "db34d0f689f9fcbdf58de93684e8059f",
+      "extra_properties": {},
+      "name": "1",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "ae04d3573453c6dd8a9d7e1b7324e687": {
+      "id": "ae04d3573453c6dd8a9d7e1b7324e687",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "new",
+      "value": "text",
+      "changes": false,
+      "py_class": "ComponentProperty",
+      "changed": true
+    },
+    "6c5eba8a2d5f54924506466e174ff714": {
+      "id": "6c5eba8a2d5f54924506466e174ff714",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "9999",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "a92a7cf78fc8cd7f2cf8872f4d2877a0": {
+      "id": "a92a7cf78fc8cd7f2cf8872f4d2877a0",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "Text",
+      "properties": [],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "b19234b6bb7b7f8ecd6e57e964ae2f47": {
+      "id": "b19234b6bb7b7f8ecd6e57e964ae2f47",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "text",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "dd5decd5064b8fadedafcbe5775ff65a": {
+      "id": "dd5decd5064b8fadedafcbe5775ff65a",
+      "parent_id": "94af0645235e349319196e7d580254b7",
+      "extra_properties": {},
+      "name": "mynet",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "9d418158a514a8ed64198dbb48d2819c": {
+      "id": "9d418158a514a8ed64198dbb48d2819c",
+      "parent_id": "94af0645235e349319196e7d580254b7",
+      "extra_properties": {},
+      "name": "new package",
+      "artifacts": [],
+      "ports": [],
+      "full_representation": true,
+      "changed": true,
+      "py_class": "Package"
+    }
+  }
+}
