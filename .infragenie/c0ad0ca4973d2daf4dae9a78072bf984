@@ -1,0 +1,130 @@
+{
+  "add": [
+    "57d7868eaa85f36a7dc96606b335a66f",
+    "2ca2eabf7c41ebf8ee6b3f4b2154c80d",
+    "35fb205edde6dd0be59f8c5d5fba80c9"
+  ],
+  "delete": [
+    "248f3046e021501ed8f11217d5700353"
+  ],
+  "changes": [
+    "824c25065ecc00b04cf456b18e172bba",
+    "57d7868eaa85f36a7dc96606b335a66f",
+    "2ca2eabf7c41ebf8ee6b3f4b2154c80d",
+    "35fb205edde6dd0be59f8c5d5fba80c9",
+    "73d99f61cf21f8768f6271f1b1e3cb79",
+    "dba3f4d0bb5aa6fcfa18da2c1f7a9775"
+  ],
+  "snapshots": {
+    "824c25065ecc00b04cf456b18e172bba": {
+      "id": "824c25065ecc00b04cf456b18e172bba",
+      "parent_id": "bf78eb730ead66692f01992d70fa03f0",
+      "name": "xxxxx",
+      "components": [
+        {
+          "id": "6cec62b19a20c63d1b6535f2688de974",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "Plantuml-server",
+          "properties": [
+            {
+              "id": "248f3046e021501ed8f11217d5700353",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "key": "image",
+              "value": "plantuml/plantuml-server:jetty",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            },
+            {
+              "id": "3c0e26fe9f27fa249591f868335c355f",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "key": "environment",
+              "value": "BASE_URL=plantuml",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            },
+            {
+              "id": "57d7868eaa85f36a7dc96606b335a66f",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "key": "text",
+              "value": "new prop",
+              "changes": false,
+              "py_class": "ComponentProperty",
+              "changed": true
+            }
+          ],
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [
+        {
+          "id": "2ca2eabf7c41ebf8ee6b3f4b2154c80d",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "0001",
+          "changed": true,
+          "py_class": "Port"
+        }
+      ],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "87c64235f342ac754477dd984311c622",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "18eb8329fc6fdb6f429a02d04f286599",
+              "parent_id": "87c64235f342ac754477dd984311c622",
+              "name": "8080",
+              "changed": false,
+              "py_class": "Port"
+            }
+          ],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "class": "Node"
+    },
+    "73d99f61cf21f8768f6271f1b1e3cb79": {
+      "id": "73d99f61cf21f8768f6271f1b1e3cb79",
+      "parent_id": "f190fccbeb3079aaade31d63a8385637",
+      "name": "./y",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "dba3f4d0bb5aa6fcfa18da2c1f7a9775": {
+      "id": "dba3f4d0bb5aa6fcfa18da2c1f7a9775",
+      "parent_id": "db34d0f689f9fcbdf58de93684e8059f",
+      "name": "80000000",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "57d7868eaa85f36a7dc96606b335a66f": {
+      "id": "57d7868eaa85f36a7dc96606b335a66f",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "key": "text",
+      "value": "new prop",
+      "changes": false,
+      "py_class": "ComponentProperty",
+      "changed": true
+    },
+    "2ca2eabf7c41ebf8ee6b3f4b2154c80d": {
+      "id": "2ca2eabf7c41ebf8ee6b3f4b2154c80d",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "name": "0001",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "35fb205edde6dd0be59f8c5d5fba80c9": {
+      "id": "35fb205edde6dd0be59f8c5d5fba80c9",
+      "parent_id": "bf78eb730ead66692f01992d70fa03f0",
+      "name": "new artifact",
+      "changed": true,
+      "py_class": "Artifact"
+    }
+  }
+}
