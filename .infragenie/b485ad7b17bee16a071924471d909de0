@@ -1,0 +1,22 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "14ac923b82b6da0eded7265748d0afaf"
+  ],
+  "snapshots": {
+    "14ac923b82b6da0eded7265748d0afaf": {
+      "id": "14ac923b82b6da0eded7265748d0afaf",
+      "parent_id": "5e6a66c7d8346753f0f1fbf4a1e451b1",
+      "extra_properties": {
+        "plantuml_connector": "-u->"
+      },
+      "name": "",
+      "from_id": "6cec62b19a20c63d1b6535f2688de974",
+      "to_id": "18eb8329fc6fdb6f429a02d04f286599",
+      "connector_type": "ARROW",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}
