@@ -1,0 +1,36 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "14ac923b82b6da0eded7265748d0afaf",
+    "3d4d8ab20be94e391de3a7727a7d7994"
+  ],
+  "snapshots": {
+    "14ac923b82b6da0eded7265748d0afaf": {
+      "id": "14ac923b82b6da0eded7265748d0afaf",
+      "parent_id": "996d437829f556151908c35482458348",
+      "extra_properties": {
+        "plantuml_connector": "-u-"
+      },
+      "name": "",
+      "from_id": "6cec62b19a20c63d1b6535f2688de974",
+      "to_id": "18eb8329fc6fdb6f429a02d04f286599",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    },
+    "3d4d8ab20be94e391de3a7727a7d7994": {
+      "id": "3d4d8ab20be94e391de3a7727a7d7994",
+      "parent_id": "996d437829f556151908c35482458348",
+      "extra_properties": {
+        "plantuml_connector": "-u-"
+      },
+      "name": "",
+      "from_id": "18eb8329fc6fdb6f429a02d04f286599",
+      "to_id": "600c44c1349e9154dce569ba37e2d70b",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}
