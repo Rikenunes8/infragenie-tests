@@ -1,0 +1,103 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "ee434023cf89d7dfb21f63d64f0f9d74"
+  ],
+  "snapshots": {
+    "ee434023cf89d7dfb21f63d64f0f9d74": {
+      "id": "ee434023cf89d7dfb21f63d64f0f9d74",
+      "parent_id": "b5091e811a95b414edfe157ca57280a2",
+      "name": "Nginxesr",
+      "components": [
+        {
+          "id": "02afd862d04e83ed8e2004eacc5b6db9",
+          "parent_id": "ee434023cf89d7dfb21f63d64f0f9d74",
+          "name": "Nginx-server",
+          "properties": [
+            {
+              "id": "a2bb7a5cc107a7d4a5f4ffe34200071d",
+              "parent_id": "02afd862d04e83ed8e2004eacc5b6db9",
+              "key": "restart",
+              "value": "unless-stopped",
+              "changes": false,
+              "py_class": "ComponentProperty"
+            }
+          ],
+          "changed": false,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "27498532e36ee2956ebd8a6d1800fa75",
+          "parent_id": "ee434023cf89d7dfb21f63d64f0f9d74",
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "3a61031652ff80665f419f821c1ac407",
+              "parent_id": "27498532e36ee2956ebd8a6d1800fa75",
+              "label": "443",
+              "changed": false,
+              "py_class": "Port"
+            },
+            {
+              "id": "97b04832e42a04c7beb04c21e560b3fb",
+              "parent_id": "27498532e36ee2956ebd8a6d1800fa75",
+              "label": "80",
+              "changed": false,
+              "py_class": "Port"
+            }
+          ],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        },
+        {
+          "id": "25078c980a066f6da4d223b3e9498139",
+          "parent_id": "ee434023cf89d7dfb21f63d64f0f9d74",
+          "name": "Volumes",
+          "artifacts": [
+            {
+              "id": "feb445bcd0c040198341918ff2d4fe78",
+              "parent_id": "25078c980a066f6da4d223b3e9498139",
+              "name": "/infra_crawler/app/staticfiles",
+              "changed": false,
+              "py_class": "Artifact"
+            },
+            {
+              "id": "2fa7031e2dc022b03ff52ea31d0b38a8",
+              "parent_id": "25078c980a066f6da4d223b3e9498139",
+              "name": "/etc/letsencrypt",
+              "changed": false,
+              "py_class": "Artifact"
+            },
+            {
+              "id": "d8a3f0fbb8decd75a2abaa2cf0995f5e",
+              "parent_id": "25078c980a066f6da4d223b3e9498139",
+              "name": "/var/www/certbot",
+              "changed": false,
+              "py_class": "Artifact"
+            },
+            {
+              "id": "23b1b729f9899522b85a42067de034a3",
+              "parent_id": "25078c980a066f6da4d223b3e9498139",
+              "name": "/etc/nginx/vhosts",
+              "changed": false,
+              "py_class": "Artifact"
+            }
+          ],
+          "ports": [],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "class": "Node"
+    }
+  }
+}
