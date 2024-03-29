@@ -1,0 +1,37 @@
+{
+  "add": [
+    "99a65cae3f6690b0c1fc06f34b2433fa",
+    "9d6e534254381566bb5ba032c85ce380"
+  ],
+  "delete": [],
+  "changes": [
+    "99a65cae3f6690b0c1fc06f34b2433fa",
+    "9d6e534254381566bb5ba032c85ce380"
+  ],
+  "snapshots": {
+    "99a65cae3f6690b0c1fc06f34b2433fa": {
+      "id": "99a65cae3f6690b0c1fc06f34b2433fa",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "new network",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "9d6e534254381566bb5ba032c85ce380": {
+      "id": "9d6e534254381566bb5ba032c85ce380",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {
+        "plantuml_connector": "-u->"
+      },
+      "name": "",
+      "from_id": "824c25065ecc00b04cf456b18e172bba",
+      "to_id": "99a65cae3f6690b0c1fc06f34b2433fa",
+      "connector_type": "ARROW",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}
