@@ -1,0 +1,110 @@
+{
+  "add": [
+    "1767feee51eddf03af0f1c5267a7c130",
+    "76fb98bb534899ccbc5b8a94309a3cde",
+    "f0859acb24c7af13e5a795916b5b17ba",
+    "06b70717c7c99028fb7e0503da86fed0",
+    "eaf477cc6bd2548949bb461cde968a0c",
+    "c5fabdffbade27bf6670a99bd1cd646e",
+    "bc7c8632201504917dbb02b5b49fd75c"
+  ],
+  "delete": [],
+  "changes": [
+    "1767feee51eddf03af0f1c5267a7c130",
+    "18eb8329fc6fdb6f429a02d04f286599",
+    "f0859acb24c7af13e5a795916b5b17ba",
+    "06b70717c7c99028fb7e0503da86fed0",
+    "eaf477cc6bd2548949bb461cde968a0c",
+    "c5fabdffbade27bf6670a99bd1cd646e",
+    "bc7c8632201504917dbb02b5b49fd75c"
+  ],
+  "snapshots": {
+    "18eb8329fc6fdb6f429a02d04f286599": {
+      "id": "18eb8329fc6fdb6f429a02d04f286599",
+      "parent_id": "87c64235f342ac754477dd984311c622",
+      "extra_properties": {},
+      "name": "8070",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "1767feee51eddf03af0f1c5267a7c130": {
+      "id": "1767feee51eddf03af0f1c5267a7c130",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "new",
+      "value": "property",
+      "changes": false,
+      "py_class": "Property",
+      "changed": true
+    },
+    "76fb98bb534899ccbc5b8a94309a3cde": {
+      "id": "76fb98bb534899ccbc5b8a94309a3cde",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "Text",
+      "properties": [],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "f0859acb24c7af13e5a795916b5b17ba": {
+      "id": "f0859acb24c7af13e5a795916b5b17ba",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "art",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "06b70717c7c99028fb7e0503da86fed0": {
+      "id": "06b70717c7c99028fb7e0503da86fed0",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "new pack",
+      "artifacts": [
+        {
+          "id": "eaf477cc6bd2548949bb461cde968a0c",
+          "parent_id": "06b70717c7c99028fb7e0503da86fed0",
+          "extra_properties": {},
+          "name": "part",
+          "changed": true,
+          "py_class": "Artifact"
+        }
+      ],
+      "ports": [],
+      "full_representation": true,
+      "changed": true,
+      "py_class": "Package"
+    },
+    "eaf477cc6bd2548949bb461cde968a0c": {
+      "id": "eaf477cc6bd2548949bb461cde968a0c",
+      "parent_id": "06b70717c7c99028fb7e0503da86fed0",
+      "extra_properties": {},
+      "name": "part",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "c5fabdffbade27bf6670a99bd1cd646e": {
+      "id": "c5fabdffbade27bf6670a99bd1cd646e",
+      "parent_id": "b6a6addf62eae9c4fec078f3a09f7a71",
+      "extra_properties": {},
+      "name": "Network",
+      "custom_name": "",
+      "properties": [],
+      "lite_node": true,
+      "changed": true,
+      "py_class": "Cloud"
+    },
+    "bc7c8632201504917dbb02b5b49fd75c": {
+      "id": "bc7c8632201504917dbb02b5b49fd75c",
+      "parent_id": "b6a6addf62eae9c4fec078f3a09f7a71",
+      "extra_properties": {
+        "plantuml_connector": "-d->"
+      },
+      "name": "",
+      "from_id": "c5fabdffbade27bf6670a99bd1cd646e",
+      "to_id": "824c25065ecc00b04cf456b18e172bba",
+      "connector_type": "ARROW",
+      "changed": true,
+      "py_class": "Connector"
+    }
+  }
+}
