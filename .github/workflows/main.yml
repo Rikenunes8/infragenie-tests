@@ -1,4 +1,7 @@
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - master
   
 
 permissions:
@@ -14,5 +17,4 @@ jobs:
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
           host: 'https://1874-94-132-118-62.ngrok-free.app'
-          branch: test-action
           readme: true
