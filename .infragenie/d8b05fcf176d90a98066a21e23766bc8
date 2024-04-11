@@ -1,0 +1,19 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "3c0e26fe9f27fa249591f868335c355f"
+  ],
+  "snapshots": {
+    "3c0e26fe9f27fa249591f868335c355f": {
+      "id": "3c0e26fe9f27fa249591f868335c355f",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "environment",
+      "value": "BASE=plantuml",
+      "changes": false,
+      "py_class": "Property",
+      "changed": true
+    }
+  }
+}
