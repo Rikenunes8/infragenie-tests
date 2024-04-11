@@ -1,0 +1,19 @@
+{
+  "add": [
+    "b807aa509d847f41c3da8449615e3952"
+  ],
+  "delete": [],
+  "changes": [
+    "b807aa509d847f41c3da8449615e3952"
+  ],
+  "snapshots": {
+    "b807aa509d847f41c3da8449615e3952": {
+      "id": "b807aa509d847f41c3da8449615e3952",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "test artifact",
+      "changed": true,
+      "py_class": "Artifact"
+    }
+  }
+}
