@@ -1,0 +1,37 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "6cec62b19a20c63d1b6535f2688de974"
+  ],
+  "snapshots": {
+    "6cec62b19a20c63d1b6535f2688de974": {
+      "id": "6cec62b19a20c63d1b6535f2688de974",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "xxxxx",
+      "properties": [
+        {
+          "id": "248f3046e021501ed8f11217d5700353",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "image",
+          "value": "plantuml/plantuml-server:jetty",
+          "changes": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "3c0e26fe9f27fa249591f868335c355f",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "environment",
+          "value": "BASE_URL=plantuml",
+          "changes": false,
+          "py_class": "Property"
+        }
+      ],
+      "changed": true,
+      "py_class": "Component"
+    }
+  }
+}
