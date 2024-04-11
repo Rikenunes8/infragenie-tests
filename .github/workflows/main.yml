@@ -1,4 +1,7 @@
-on: [workflow_dispatch, push]
+on:
+  push:
+    branches-ignore:
+      - master
   
 
 permissions:
@@ -13,5 +16,5 @@ jobs:
         uses: Rikenunes8/infragenie-ghaction@master
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
-          host: 'https://91cd-192-136-49-35.ngrok-free.app'
-          branch: test-action
+          host: 'https://1874-94-132-118-62.ngrok-free.app'
+          readme: true

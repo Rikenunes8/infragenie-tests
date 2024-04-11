@@ -1,0 +1,17 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "48871f9ddd61de6056759e86342fe397"
+  ],
+  "snapshots": {
+    "48871f9ddd61de6056759e86342fe397": {
+      "id": "48871f9ddd61de6056759e86342fe397",
+      "parent_id": "3d60f89150fa58c7501cba981a6c0ab5",
+      "extra_properties": {},
+      "name": "/infra_",
+      "changed": true,
+      "py_class": "Artifact"
+    }
+  }
+}
