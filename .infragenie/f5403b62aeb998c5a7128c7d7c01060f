@@ -1,0 +1,131 @@
+{
+  "add": [
+    "97bd3600dccc5dabee8b1b40985172a4",
+    "daf581cea0f72d7e2b751436749c5f70",
+    "e2dfb6ea71ce3e37857780d6eeb546ec",
+    "1a868b88c358b0cdc3a9fed1b6ad0bb2",
+    "e15e59ed7011f8d72991034fb77a8715"
+  ],
+  "delete": [
+    "600c44c1349e9154dce569ba37e2d70b",
+    "3d4d8ab20be94e391de3a7727a7d7994"
+  ],
+  "changes": [
+    "824c25065ecc00b04cf456b18e172bba"
+  ],
+  "snapshots": {
+    "824c25065ecc00b04cf456b18e172bba": {
+      "id": "824c25065ecc00b04cf456b18e172bba",
+      "parent_id": "10044bfd6dc3f45b0ce834c7a8d38eab",
+      "extra_properties": {},
+      "name": "xxxxxxx-server",
+      "components": [
+        {
+          "id": "6cec62b19a20c63d1b6535f2688de974",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Plantuml-server",
+          "properties": [
+            {
+              "id": "248f3046e021501ed8f11217d5700353",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "image",
+              "value": "plantuml/plantuml-server:jetty",
+              "changes": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "3c0e26fe9f27fa249591f868335c355f",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "environment",
+              "value": "BASE_URL=plantuml",
+              "changes": false,
+              "py_class": "Property"
+            }
+          ],
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [
+        {
+          "id": "1a868b88c358b0cdc3a9fed1b6ad0bb2",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "9999",
+          "changed": true,
+          "py_class": "Port"
+        }
+      ],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "87c64235f342ac754477dd984311c622",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "18eb8329fc6fdb6f429a02d04f286599",
+              "parent_id": "87c64235f342ac754477dd984311c622",
+              "extra_properties": {},
+              "name": "8080",
+              "changed": false,
+              "py_class": "Port"
+            }
+          ],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "97bd3600dccc5dabee8b1b40985172a4": {
+      "id": "97bd3600dccc5dabee8b1b40985172a4",
+      "parent_id": "2199ace55d43ccccac9c1d7a9f4a5b7b",
+      "extra_properties": {},
+      "name": "Text",
+      "properties": [],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "daf581cea0f72d7e2b751436749c5f70": {
+      "id": "daf581cea0f72d7e2b751436749c5f70",
+      "parent_id": "ee434023cf89d7dfb21f63d64f0f9d74",
+      "extra_properties": {},
+      "name": "text",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "e2dfb6ea71ce3e37857780d6eeb546ec": {
+      "id": "e2dfb6ea71ce3e37857780d6eeb546ec",
+      "parent_id": "ee434023cf89d7dfb21f63d64f0f9d74",
+      "extra_properties": {},
+      "name": "Text",
+      "properties": [],
+      "changed": true,
+      "py_class": "Component"
+    },
+    "1a868b88c358b0cdc3a9fed1b6ad0bb2": {
+      "id": "1a868b88c358b0cdc3a9fed1b6ad0bb2",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "9999",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "e15e59ed7011f8d72991034fb77a8715": {
+      "id": "e15e59ed7011f8d72991034fb77a8715",
+      "parent_id": "9d3bb895f22bf0afa958d68c2a58ded7",
+      "extra_properties": {},
+      "name": "9999",
+      "changed": true,
+      "py_class": "Port"
+    }
+  }
+}
