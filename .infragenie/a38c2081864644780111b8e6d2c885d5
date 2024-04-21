@@ -1,0 +1,26 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "107ea90b85e17faf4f7afc86017a48ab",
+    "4859b8c3887a1d16eb0586611fc3ae0e"
+  ],
+  "snapshots": {
+    "107ea90b85e17faf4f7afc86017a48ab": {
+      "id": "107ea90b85e17faf4f7afc86017a48ab",
+      "parent_id": "7c2ac6ca2870c907e05d3edf0b456483",
+      "extra_properties": {},
+      "name": "xxxxxxxx",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "4859b8c3887a1d16eb0586611fc3ae0e": {
+      "id": "4859b8c3887a1d16eb0586611fc3ae0e",
+      "parent_id": "7c2ac6ca2870c907e05d3edf0b456483",
+      "extra_properties": {},
+      "name": "/es",
+      "changed": true,
+      "py_class": "Artifact"
+    }
+  }
+}
