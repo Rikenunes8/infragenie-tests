@@ -1,0 +1,19 @@
+{
+  "add": [],
+  "delete": [],
+  "changes": [
+    "d4efd7f0da1ccc2cba9ffaf2f9eee6bf"
+  ],
+  "snapshots": {
+    "d4efd7f0da1ccc2cba9ffaf2f9eee6bf": {
+      "id": "d4efd7f0da1ccc2cba9ffaf2f9eee6bf",
+      "parent_id": "2d29a7088a3803a10bf68292a2fd3809",
+      "extra_properties": {},
+      "name": "Urlsaaaaa",
+      "properties": [],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    }
+  }
+}
