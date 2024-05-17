@@ -1,0 +1,22 @@
+{
+  "add": [
+    "81be1aac2ec3bba839a5b00b45d11bfe"
+  ],
+  "delete": [],
+  "changes": [],
+  "snapshots": {
+    "81be1aac2ec3bba839a5b00b45d11bfe": {
+      "id": "81be1aac2ec3bba839a5b00b45d11bfe",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "clouds": [],
+      "ports": [],
+      "components": [],
+      "artifacts": [],
+      "nodes": [],
+      "packages": [],
+      "connections": [],
+      "py_class": "DeploymentDiagram"
+    }
+  }
+}
