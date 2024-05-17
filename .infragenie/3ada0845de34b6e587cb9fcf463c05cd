@@ -1,0 +1,90 @@
+{
+  "add": [
+    "63cd0d9fac35ff02db8d2d68e9536ecb",
+    "1820709ce36980d2a08767bdfe83f0a4",
+    "1d4e5406bacf98def3143d928131e174",
+    "3c66341ebc03cb524c58622b00245c11"
+  ],
+  "delete": [],
+  "changes": [
+    "63cd0d9fac35ff02db8d2d68e9536ecb",
+    "1d4e5406bacf98def3143d928131e174"
+  ],
+  "snapshots": {
+    "63cd0d9fac35ff02db8d2d68e9536ecb": {
+      "id": "63cd0d9fac35ff02db8d2d68e9536ecb",
+      "parent_id": "81be1aac2ec3bba839a5b00b45d11bfe",
+      "extra_properties": {},
+      "name": "New graph",
+      "components": [
+        {
+          "id": "1820709ce36980d2a08767bdfe83f0a4",
+          "parent_id": "63cd0d9fac35ff02db8d2d68e9536ecb",
+          "extra_properties": {},
+          "name": "Text",
+          "properties": [
+            {
+              "id": "3c66341ebc03cb524c58622b00245c11",
+              "parent_id": "1820709ce36980d2a08767bdfe83f0a4",
+              "extra_properties": {},
+              "key": "text",
+              "value": "text",
+              "changed": false,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "1820709ce36980d2a08767bdfe83f0a4": {
+      "id": "1820709ce36980d2a08767bdfe83f0a4",
+      "parent_id": "63cd0d9fac35ff02db8d2d68e9536ecb",
+      "extra_properties": {},
+      "name": "Text",
+      "properties": [
+        {
+          "id": "3c66341ebc03cb524c58622b00245c11",
+          "parent_id": "1820709ce36980d2a08767bdfe83f0a4",
+          "extra_properties": {},
+          "key": "text",
+          "value": "text",
+          "changed": false,
+          "py_class": "Property"
+        }
+      ],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    },
+    "1d4e5406bacf98def3143d928131e174": {
+      "id": "1d4e5406bacf98def3143d928131e174",
+      "parent_id": "81be1aac2ec3bba839a5b00b45d11bfe",
+      "extra_properties": {
+        "plantuml_connector": "-"
+      },
+      "name": "",
+      "from_id": "63cd0d9fac35ff02db8d2d68e9536ecb",
+      "to_id": "1820709ce36980d2a08767bdfe83f0a4",
+      "connector_type": "SIMPLE",
+      "changed": true,
+      "py_class": "Connector"
+    },
+    "3c66341ebc03cb524c58622b00245c11": {
+      "id": "3c66341ebc03cb524c58622b00245c11",
+      "parent_id": "1820709ce36980d2a08767bdfe83f0a4",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "changed": false,
+      "py_class": "Property"
+    }
+  }
+}
