@@ -1,0 +1,87 @@
+{
+  "add": [
+    "247881ce656bae08d586ac602001a946",
+    "a41c7840debf9e10de1ce121fb479784",
+    "a47932e2eb3c3093bf11f01c3d61597c",
+    "1ba258307e397b840cd4182f35c713ab"
+  ],
+  "delete": [],
+  "changes": [
+    "a41c7840debf9e10de1ce121fb479784",
+    "1ba258307e397b840cd4182f35c713ab"
+  ],
+  "snapshots": {
+    "247881ce656bae08d586ac602001a946": {
+      "id": "247881ce656bae08d586ac602001a946",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "clouds": [],
+      "ports": [],
+      "components": [
+        {
+          "id": "a41c7840debf9e10de1ce121fb479784",
+          "parent_id": "247881ce656bae08d586ac602001a946",
+          "extra_properties": {},
+          "name": "My new compoennt",
+          "properties": [],
+          "diagram": null,
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "artifacts": [],
+      "nodes": [],
+      "packages": [],
+      "connections": [],
+      "py_class": "DeploymentDiagram"
+    },
+    "a41c7840debf9e10de1ce121fb479784": {
+      "id": "a41c7840debf9e10de1ce121fb479784",
+      "parent_id": "247881ce656bae08d586ac602001a946",
+      "extra_properties": {},
+      "name": "My new compoennt",
+      "properties": [],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    },
+    "a47932e2eb3c3093bf11f01c3d61597c": {
+      "id": "a47932e2eb3c3093bf11f01c3d61597c",
+      "parent_id": "e08de8ee1b7bd0e45201edaf78ba4697",
+      "extra_properties": {},
+      "clouds": [],
+      "ports": [],
+      "components": [],
+      "artifacts": [],
+      "nodes": [
+        {
+          "id": "1ba258307e397b840cd4182f35c713ab",
+          "parent_id": "a47932e2eb3c3093bf11f01c3d61597c",
+          "extra_properties": {},
+          "name": "This one has node",
+          "components": [],
+          "ports": [],
+          "artifacts": [],
+          "packages": [],
+          "changed": true,
+          "py_class": "Node"
+        }
+      ],
+      "packages": [],
+      "connections": [],
+      "py_class": "DeploymentDiagram"
+    },
+    "1ba258307e397b840cd4182f35c713ab": {
+      "id": "1ba258307e397b840cd4182f35c713ab",
+      "parent_id": "a47932e2eb3c3093bf11f01c3d61597c",
+      "extra_properties": {},
+      "name": "This one has node",
+      "components": [],
+      "ports": [],
+      "artifacts": [],
+      "packages": [],
+      "changed": true,
+      "py_class": "Node"
+    }
+  }
+}
