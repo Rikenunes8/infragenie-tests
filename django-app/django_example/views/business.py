@@ -1,3 +1,5 @@
+from ..settings import LOGIN_URL
+
 def index(request):
     pass
 
