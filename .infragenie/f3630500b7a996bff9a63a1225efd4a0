@@ -1,0 +1,93 @@
+{
+  "add": [
+    "2fc3104893dd81539c76391591d0bd89",
+    "7d3493e981e4f5f60d8431ef824e0276",
+    "ed422b3fce7d00db2cdf5baae2758cc0",
+    "5c92c67fafd184b1a6b61f1a78254743"
+  ],
+  "delete": [],
+  "changes": [
+    "6cec62b19a20c63d1b6535f2688de974"
+  ],
+  "snapshots": {
+    "6cec62b19a20c63d1b6535f2688de974": {
+      "id": "6cec62b19a20c63d1b6535f2688de974",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "Plantuml",
+      "properties": [
+        {
+          "id": "248f3046e021501ed8f11217d5700353",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "image",
+          "value": "plantuml/plantuml-server:jetty",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "3c0e26fe9f27fa249591f868335c355f",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "environment",
+          "value": "BASE_URL=plantuml",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "7d3493e981e4f5f60d8431ef824e0276",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "text",
+          "value": "text",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        }
+      ],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    },
+    "2fc3104893dd81539c76391591d0bd89": {
+      "id": "2fc3104893dd81539c76391591d0bd89",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    },
+    "7d3493e981e4f5f60d8431ef824e0276": {
+      "id": "7d3493e981e4f5f60d8431ef824e0276",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    },
+    "ed422b3fce7d00db2cdf5baae2758cc0": {
+      "id": "ed422b3fce7d00db2cdf5baae2758cc0",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Text",
+      "properties": [],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    },
+    "5c92c67fafd184b1a6b61f1a78254743": {
+      "id": "5c92c67fafd184b1a6b61f1a78254743",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "text",
+      "changed": true,
+      "py_class": "Artifact"
+    }
+  }
+}
