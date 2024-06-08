@@ -1,0 +1,184 @@
+{
+  "add": [
+    "87051f3d6d5d3a4b98579fc0d65f88e0",
+    "b3cf1799a1bceca5cdf55b5995b6d2f4",
+    "a20d4889d8a19ea9d3599c2135ef730c"
+  ],
+  "delete": [],
+  "changes": [
+    "824c25065ecc00b04cf456b18e172bba",
+    "64fbcdac1d2a342a3d1eb884b5f059ad"
+  ],
+  "snapshots": {
+    "824c25065ecc00b04cf456b18e172bba": {
+      "id": "824c25065ecc00b04cf456b18e172bba",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Plantuml",
+      "components": [
+        {
+          "id": "6cec62b19a20c63d1b6535f2688de974",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Plantuml-server",
+          "properties": [
+            {
+              "id": "248f3046e021501ed8f11217d5700353",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "image",
+              "value": "plantuml/plantuml-server:jetty",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "3c0e26fe9f27fa249591f868335c355f",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "environment",
+              "value": "BASE_URL=plantuml",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "87051f3d6d5d3a4b98579fc0d65f88e0",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "text",
+              "value": "text",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "87c64235f342ac754477dd984311c622",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "18eb8329fc6fdb6f429a02d04f286599",
+              "parent_id": "87c64235f342ac754477dd984311c622",
+              "extra_properties": {},
+              "name": "8080",
+              "changed": false,
+              "py_class": "Port"
+            }
+          ],
+          "components": [],
+          "packages": [],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "64fbcdac1d2a342a3d1eb884b5f059ad": {
+      "id": "64fbcdac1d2a342a3d1eb884b5f059ad",
+      "parent_id": "243a31c0e9c0616e56574e983647c310",
+      "extra_properties": {},
+      "name": "django/",
+      "artifacts": [],
+      "ports": [],
+      "components": [
+        {
+          "id": "6596883f1f27f953c917d5eacc409661",
+          "parent_id": "64fbcdac1d2a342a3d1eb884b5f059ad",
+          "extra_properties": {},
+          "name": "Urls",
+          "properties": [
+            {
+              "id": "a20d4889d8a19ea9d3599c2135ef730c",
+              "parent_id": "6596883f1f27f953c917d5eacc409661",
+              "extra_properties": {},
+              "key": "text",
+              "value": "text",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": true,
+          "py_class": "Component"
+        },
+        {
+          "id": "f545ff0e5266ad04284a17002bf66cb4",
+          "parent_id": "64fbcdac1d2a342a3d1eb884b5f059ad",
+          "extra_properties": {},
+          "name": "Views/auth",
+          "properties": [],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        },
+        {
+          "id": "5a51648bd3995ff00e032cf8526d92de",
+          "parent_id": "64fbcdac1d2a342a3d1eb884b5f059ad",
+          "extra_properties": {},
+          "name": "Views/business",
+          "properties": [],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        },
+        {
+          "id": "688bc681bfd124cc46618f33bdb6b623",
+          "parent_id": "64fbcdac1d2a342a3d1eb884b5f059ad",
+          "extra_properties": {},
+          "name": "Models",
+          "properties": [],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        }
+      ],
+      "packages": [],
+      "full_representation": true,
+      "changed": true,
+      "py_class": "Package"
+    },
+    "87051f3d6d5d3a4b98579fc0d65f88e0": {
+      "id": "87051f3d6d5d3a4b98579fc0d65f88e0",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    },
+    "b3cf1799a1bceca5cdf55b5995b6d2f4": {
+      "id": "b3cf1799a1bceca5cdf55b5995b6d2f4",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "text",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "a20d4889d8a19ea9d3599c2135ef730c": {
+      "id": "a20d4889d8a19ea9d3599c2135ef730c",
+      "parent_id": "6596883f1f27f953c917d5eacc409661",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    }
+  }
+}
