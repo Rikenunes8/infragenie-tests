@@ -1,0 +1,204 @@
+{
+  "add": [
+    "e1ef43bd1ae7ec64932a0d253b46b0f4",
+    "aaee332a25271c5ec6458256e009a64b",
+    "e9794aab21e40776e3912322ad7d55d8",
+    "5d6bc3f861cf1d6a2d23d2d6236b7c7b"
+  ],
+  "delete": [
+    "48871f9ddd61de6056759e86342fe397"
+  ],
+  "changes": [
+    "824c25065ecc00b04cf456b18e172bba",
+    "2db7d8fdfd75b4d4b47990a00e64606d"
+  ],
+  "snapshots": {
+    "824c25065ecc00b04cf456b18e172bba": {
+      "id": "824c25065ecc00b04cf456b18e172bba",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "Plantuml",
+      "components": [
+        {
+          "id": "6cec62b19a20c63d1b6535f2688de974",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Plantuml-server",
+          "properties": [
+            {
+              "id": "248f3046e021501ed8f11217d5700353",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "image",
+              "value": "plantuml/plantuml-server:jetty",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "3c0e26fe9f27fa249591f868335c355f",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "environment",
+              "value": "BASE_URL=plantuml",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            },
+            {
+              "id": "e9794aab21e40776e3912322ad7d55d8",
+              "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+              "extra_properties": {},
+              "key": "text",
+              "value": "text",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": true,
+          "py_class": "Component"
+        }
+      ],
+      "ports": [
+        {
+          "id": "aaee332a25271c5ec6458256e009a64b",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "9999",
+          "changed": true,
+          "py_class": "Port"
+        }
+      ],
+      "artifacts": [],
+      "packages": [
+        {
+          "id": "87c64235f342ac754477dd984311c622",
+          "parent_id": "824c25065ecc00b04cf456b18e172bba",
+          "extra_properties": {},
+          "name": "Ports",
+          "artifacts": [],
+          "ports": [
+            {
+              "id": "18eb8329fc6fdb6f429a02d04f286599",
+              "parent_id": "87c64235f342ac754477dd984311c622",
+              "extra_properties": {},
+              "name": "8080",
+              "changed": false,
+              "py_class": "Port"
+            }
+          ],
+          "components": [],
+          "packages": [],
+          "full_representation": false,
+          "changed": false,
+          "py_class": "Package"
+        }
+      ],
+      "changed": true,
+      "py_class": "Node"
+    },
+    "2db7d8fdfd75b4d4b47990a00e64606d": {
+      "id": "2db7d8fdfd75b4d4b47990a00e64606d",
+      "parent_id": "243a31c0e9c0616e56574e983647c310",
+      "extra_properties": {},
+      "name": "django/",
+      "artifacts": [],
+      "ports": [],
+      "components": [
+        {
+          "id": "6edabb0a4f29497bbe6b83f221e8930a",
+          "parent_id": "2db7d8fdfd75b4d4b47990a00e64606d",
+          "extra_properties": {},
+          "name": "Urls",
+          "properties": [],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        },
+        {
+          "id": "5cab9a7b560dbcea052037d405503980",
+          "parent_id": "2db7d8fdfd75b4d4b47990a00e64606d",
+          "extra_properties": {},
+          "name": "Views/auth",
+          "properties": [
+            {
+              "id": "5d6bc3f861cf1d6a2d23d2d6236b7c7b",
+              "parent_id": "5cab9a7b560dbcea052037d405503980",
+              "extra_properties": {},
+              "key": "text",
+              "value": "text",
+              "visible": true,
+              "changed": false,
+              "py_class": "Property"
+            }
+          ],
+          "diagram": null,
+          "changed": true,
+          "py_class": "Component"
+        },
+        {
+          "id": "59e930d9bdf16b2df79bb7449aa7db51",
+          "parent_id": "2db7d8fdfd75b4d4b47990a00e64606d",
+          "extra_properties": {},
+          "name": "Views/business",
+          "properties": [],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        },
+        {
+          "id": "ccdc3cd06068e3bc0d950469cb4538cd",
+          "parent_id": "2db7d8fdfd75b4d4b47990a00e64606d",
+          "extra_properties": {},
+          "name": "Models",
+          "properties": [],
+          "diagram": null,
+          "changed": false,
+          "py_class": "Component"
+        }
+      ],
+      "packages": [],
+      "full_representation": true,
+      "changed": true,
+      "py_class": "Package"
+    },
+    "e1ef43bd1ae7ec64932a0d253b46b0f4": {
+      "id": "e1ef43bd1ae7ec64932a0d253b46b0f4",
+      "parent_id": "MergedDiagram",
+      "extra_properties": {},
+      "name": "text",
+      "changed": true,
+      "py_class": "Artifact"
+    },
+    "aaee332a25271c5ec6458256e009a64b": {
+      "id": "aaee332a25271c5ec6458256e009a64b",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "9999",
+      "changed": true,
+      "py_class": "Port"
+    },
+    "e9794aab21e40776e3912322ad7d55d8": {
+      "id": "e9794aab21e40776e3912322ad7d55d8",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    },
+    "5d6bc3f861cf1d6a2d23d2d6236b7c7b": {
+      "id": "5d6bc3f861cf1d6a2d23d2d6236b7c7b",
+      "parent_id": "5cab9a7b560dbcea052037d405503980",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    }
+  }
+}
