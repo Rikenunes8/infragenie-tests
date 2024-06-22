@@ -1,0 +1,21 @@
+{
+  "add": [
+    "15c81e78893024c5e2ba38d2fd08859c"
+  ],
+  "delete": [],
+  "changes": [
+    "15c81e78893024c5e2ba38d2fd08859c"
+  ],
+  "snapshots": {
+    "15c81e78893024c5e2ba38d2fd08859c": {
+      "id": "15c81e78893024c5e2ba38d2fd08859c",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "New component",
+      "properties": [],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    }
+  }
+}
