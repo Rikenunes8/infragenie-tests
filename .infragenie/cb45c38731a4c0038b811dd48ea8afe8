@@ -1,0 +1,63 @@
+{
+  "add": [
+    "6a9d692407376168c1113c0597ec54d5",
+    "397d342b614308fae8dbf2bcca59bc91"
+  ],
+  "delete": [],
+  "changes": [
+    "90864b398c54ba1a31949f1dc8f522f9",
+    "6a9d692407376168c1113c0597ec54d5",
+    "397d342b614308fae8dbf2bcca59bc91"
+  ],
+  "snapshots": {
+    "90864b398c54ba1a31949f1dc8f522f9": {
+      "id": "90864b398c54ba1a31949f1dc8f522f9",
+      "parent_id": "d2a57dc1d883fd21fb9951699df71cc7",
+      "extra_properties": {},
+      "name": "New name",
+      "properties": [
+        {
+          "id": "2193903c8eb40b53dab39b1baedb87d0",
+          "parent_id": "90864b398c54ba1a31949f1dc8f522f9",
+          "extra_properties": {},
+          "key": "restart",
+          "value": "always",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "6a9d692407376168c1113c0597ec54d5",
+          "parent_id": "90864b398c54ba1a31949f1dc8f522f9",
+          "extra_properties": {},
+          "key": "props",
+          "value": "to text",
+          "visible": true,
+          "changed": true,
+          "py_class": "Property"
+        }
+      ],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    },
+    "6a9d692407376168c1113c0597ec54d5": {
+      "id": "6a9d692407376168c1113c0597ec54d5",
+      "parent_id": "90864b398c54ba1a31949f1dc8f522f9",
+      "extra_properties": {},
+      "key": "props",
+      "value": "to text",
+      "visible": true,
+      "changed": true,
+      "py_class": "Property"
+    },
+    "397d342b614308fae8dbf2bcca59bc91": {
+      "id": "397d342b614308fae8dbf2bcca59bc91",
+      "parent_id": "d2a57dc1d883fd21fb9951699df71cc7",
+      "extra_properties": {},
+      "name": "new artifact",
+      "changed": true,
+      "py_class": "Artifact"
+    }
+  }
+}
