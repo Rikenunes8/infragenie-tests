@@ -1,0 +1,62 @@
+{
+  "add": [
+    "bf439341cc9a8bbb146376db368be196"
+  ],
+  "delete": [],
+  "changes": [
+    "6cec62b19a20c63d1b6535f2688de974"
+  ],
+  "snapshots": {
+    "6cec62b19a20c63d1b6535f2688de974": {
+      "id": "6cec62b19a20c63d1b6535f2688de974",
+      "parent_id": "824c25065ecc00b04cf456b18e172bba",
+      "extra_properties": {},
+      "name": "Plantuml",
+      "properties": [
+        {
+          "id": "248f3046e021501ed8f11217d5700353",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "image",
+          "value": "plantuml/plantuml-server:jetty",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "2b59c46e804e19d0204760e2f95d4a7f",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "environment",
+          "value": "BASE_URL=plantuml2",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        },
+        {
+          "id": "bf439341cc9a8bbb146376db368be196",
+          "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+          "extra_properties": {},
+          "key": "text",
+          "value": "text",
+          "visible": true,
+          "changed": false,
+          "py_class": "Property"
+        }
+      ],
+      "diagram": null,
+      "changed": true,
+      "py_class": "Component"
+    },
+    "bf439341cc9a8bbb146376db368be196": {
+      "id": "bf439341cc9a8bbb146376db368be196",
+      "parent_id": "6cec62b19a20c63d1b6535f2688de974",
+      "extra_properties": {},
+      "key": "text",
+      "value": "text",
+      "visible": true,
+      "changed": false,
+      "py_class": "Property"
+    }
+  }
+}
